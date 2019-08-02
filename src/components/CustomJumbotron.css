@@ -1,0 +1,207 @@
+/* src/components/CustomJumbotron.css */
+
+.span-fortune-match {
+    color: white;
+    font: 25px palatino;
+}
+
+.jumbotron-auraOne {
+    color: white;
+    background-image: linear-gradient(110deg, Pink, RebeccaPurple);
+    align-content: left;
+    font: 25px palatino;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+    margin: 1em;
+    top: 1em;
+    position: relative;
+}
+
+.jumbotron-auraTwo {
+    color: white;
+    background-image: linear-gradient(80deg, Gold, SeaGreen);
+    align-content: left;
+    font: 25px palatino;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+    margin: 1em;
+    top: 1em;
+    position: relative;
+}
+
+.jumbotron-auraThree {
+    color: white;
+    background-image: linear-gradient(100deg, MediumSpringGreen, DarkSlateGrey);
+    align-content: left;
+    font: 25px palatino;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+    margin: 1em;
+    top: 1em;
+    position: relative;
+}
+
+.jumbotron-auraFour {
+    color: white;
+    background-image: linear-gradient(20deg, Cyan, MidnightBlue);
+    align-content: left;
+    font: 25px palatino;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+    margin: 1em;
+    top: 1em;
+    position: relative;
+}
+
+.jumbotron-auraFive {
+    color: white;
+    background-image: linear-gradient(140deg, MediumSlateBlue, Teal);
+    align-content: left;
+    font: 25px palatino;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+    margin: 1em;
+    top: 1em;
+    position: relative;
+}
+
+.jumbotron-auraSix {
+    color: white;
+    background-image: linear-gradient(100deg, Black, DarkSlateGrey);
+    align-content: left;
+    font: 25px palatino;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+    margin: 1em;
+    top: 1em;
+    position: relative;
+}
+
+.jumbotron-auraSeven {
+    color: white;
+    background-image: linear-gradient(100deg, MediumVioletRed, DarkRed);
+    align-content: left;
+    font: 25px palatino;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+    margin: 1em;
+    top: 1em;
+    position: relative;
+}
+
+.jumbotron-auraEight {
+    color: white;
+    background-image: linear-gradient(140deg, red, SkyBlue);
+    align-content: left;
+    font: 35px palatino;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+    margin: 1em;
+    top: 1em;
+    position: relative;
+}
+
+.jumbotron-auraNine{
+    color: white;
+    background-image: linear-gradient(90deg, LimeGreen, ForestGreen);
+    align-content: left;
+    font: 25px palatino;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+    margin: 1em;
+    top: 1em;
+    position: relative;
+}
+
+.jumbotron-auraTen {
+    color: white;
+    background-image: linear-gradient(50deg, DodgerBlue, MediumSlateBlue);
+    align-content: left;
+    font: 25px palatino;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+    margin: 1em;
+    top: 1em;
+    position: relative;
+}
+
+.jumbotron-auraEleven {
+    color: white;
+    background-image: linear-gradient(130deg, Indigo, MediumSlateBlue);
+    align-content: left;
+    font: 25px palatino;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+    margin: 1em;
+    top: 1em;
+    position: relative;
+}
+
+.jumbotron-auraTwelve {
+    color: white;
+    background-image: linear-gradient(10deg, Black, SteelBlue);
+    align-content: left;
+    font: 25px palatino;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+    margin: 1em;
+    top: 1em;
+    position: relative;
+}
+
+.jumbotron-auraThirteen {
+    color: white;
+    background-image: linear-gradient(10deg, DimGray, Orange);
+    align-content: left;
+    font: 25px palatino;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+    margin: 1em;
+    top: 1em;
+    position: relative;
+}
+
+.jumbotron-default {
+    color: white;
+    background-image: linear-gradient(50deg, MediumSlateBlue, DarkGreen);
+    align-content: left;
+    font: 25px palatino;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+    margin: 1em;
+    top: 1em;
+    position: relative;
+}
+
+.container-cuttlefish {
+    align-items: center;
+    align: center;
+}

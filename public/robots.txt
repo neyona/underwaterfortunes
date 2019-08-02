@@ -1,0 +1,9 @@
+User-Agent: *
+Allow: /fortune
+Allow: /manifest.json
+Allow: /about
+Allow: /merch
+Allow: /robots.txt
+Allow: /
+Disallow: /api
+Disallow: /admin

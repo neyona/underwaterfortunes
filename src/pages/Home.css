@@ -1,0 +1,62 @@
+/* src/pages/Home.css */
+.jumbotron {
+    color: white;
+    background-image: linear-gradient(30deg, Blue, Black);
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+    margin: 1em;
+    top: 1em;
+    position: relative;
+}
+.jumbotron-error {
+    color: white;
+    background-image: linear-gradient(200deg, white, Black);
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+    margin: 1em;
+    top: 1em;
+    position: relative;
+}
+.person-wrapper {
+    margin-bottom: 2em;
+}
+
+h2 {
+    margin-bottom: 1em;
+}
+
+h3 {
+    margin-bottom: 1em;
+}
+
+.special-title {
+    margin-bottom: 1em;
+    color: white;
+    background-image: linear-gradient(90deg, Purple, Green);
+    text-align: center;
+    position: relative;
+}
+
+legend {
+    color: white;
+}
+
+.img {
+    border: 10px solid gold;
+}
+
+.figure-caption {
+    color: white;
+    font-size: 20px;
+    align-items: center;
+    align: center;
+}
+
+.container {
+    align-items: center;
+    align: center;
+}
