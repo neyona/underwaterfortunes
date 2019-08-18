@@ -16,6 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import include, path, re_path
 from django.views.generic import TemplateView
+from django.views.decorators.cache import cache_page
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -24,7 +25,7 @@ urlpatterns = [
         template_name="robots.txt", content_type='text/plain')),
     re_path(r'^manifest\.json$', TemplateView.as_view(
         template_name="manifest.json", content_type='application/json')),
-    re_path(r'^.*', TemplateView.as_view(template_name='index.html')),
+    re_path(r'^.*', cache_page(604800)(TemplateView.as_view(template_name='index.html'))),
     path('api-auth/', include('rest_framework.urls')),
     path('api/rest-auth/', include('rest_auth.urls')),
 ]
