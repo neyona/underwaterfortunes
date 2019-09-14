@@ -8,6 +8,7 @@ import { compose } from 'redux';
 import PropTypes from 'prop-types';
 import OneFortune from './OneFortune';
 import { withRouter } from 'react-router-dom';
+import styled, { css, keyframes } from 'styled-components';
 
 import Fortune_Cuttlefish from '../static/Fortune_Cuttlefish.png';
 import "./CustomJumbotron.css";
@@ -66,6 +67,36 @@ class FortuneJumbotron extends Component {
     if (reRouteAuraValue === 0) {
       this.props.history.push('/');
     }
+    
+    // The following will animate the Fortune Cuttlefish on the fortune page
+    // using styled components.
+
+    const rotate = keyframes`
+      0% {
+        transform: rotate(1deg) translate(.3vmin, .8vmin);
+      }
+      20% {
+        transform: rotate(-0.8deg) translate(-.1vmin, -.9vmin);
+      }
+      55% {
+        transform: rotate(0.8deg) translate(.3vmin, -.6vmin);
+      }
+      70% {
+        transform: rotate(1deg) translate(-.2vmin, .9vmin);
+      }
+      100% {
+        transform: rotate(-1deg) translate(.4vmin, -.5vmin);
+      }
+    `;
+
+    const rotateRule = css`
+      ${rotate} 6s ease-in infinite alternate;
+    `;
+
+    const Rotate = styled.div`
+      display: inline-block;
+      animation: ${rotateRule};
+    `;
 
     return (
       <div>
@@ -73,9 +104,11 @@ class FortuneJumbotron extends Component {
         {nameGet}
           <OneFortune />
           <br />
-          <Container className="container-cuttlefish" fluid>
-            <Image src={Fortune_Cuttlefish} fluid />
-          </Container>
+          <Rotate>
+            <Container className="container-cuttlefish" fluid>
+              <Image src={Fortune_Cuttlefish} fluid />
+            </Container>
+          </Rotate>
         </Jumbotron>
       </div>
     );
