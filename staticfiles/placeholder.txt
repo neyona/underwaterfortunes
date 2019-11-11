@@ -1,0 +1,1 @@
+This is a placeholder for where files will be when python manage.py collectstatic is run.
