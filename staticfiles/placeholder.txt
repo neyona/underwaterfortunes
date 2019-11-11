@@ -1,1 +1,4 @@
-This is a placeholder for where files will be when python manage.py collectstatic is run. To run it for deployment on heroku, I had to turn off the bucket settings and storage settings (I just commented them out), then ran python manage.py collectstatic after running yarn run build. I then put the staticfiles in my Amazon S3 Bucket and put back the bucket and storage settings. 
+This is a placeholder for where files will be when python manage.py collectstatic is run. To run it for deployment on heroku,
+I had to turn off the bucket settings and storage settings (I just commented them out), then ran python manage.py
+collectstatic after running yarn run build. I then put the staticfiles in my Amazon S3 Bucket and put back the bucket and
+storage settings. 
