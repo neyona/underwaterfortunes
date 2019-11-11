@@ -1,0 +1,24 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+django = "==2.2.6"
+djangorestframework = "==3.10.3"
+django-rest-auth = "*"
+psycopg2-binary = "*"
+python-dotenv = "*"
+whitenoise = "*"
+gunicorn = "*"
+boto3 = "*"
+django-storages = "*"
+django-cors-headers = "==3.1.1"
+pillow = "*"
+django-environ = "*"
+django-webpack-loader = "*"
+
+[requires]
+python_version = "3.7"
