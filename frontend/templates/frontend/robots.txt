@@ -1,0 +1,11 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /fortune
+Allow: /manifest.json
+Allow: /about
+Allow: /merch
+Allow: /contacts
+Allow: /robots.txt
+Allow: /
+Disallow: /api
+Disallow: /admin
