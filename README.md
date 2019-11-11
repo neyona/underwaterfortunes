@@ -1,13 +1,7 @@
-This is the production code that is deployed on heroku for https://underwaterfortunes.com. The site gives random funny fortunes and uses Django, React, Redux, etc.
+This is the production code (with some examples of the deployment code left in) that is deployed on heroku for https://underwaterfortunes.com. The site gives random funny fortunes and uses Django, Django Rest Framework, React, Redux, Axios, etc. The site had a recent complete overhaul and runs faster now.
 
-It was made using a Django backend which also included Django Rest Framework, and the frontend was made using create-react-app.
+It was made using a Django backend which also included Django Rest Framework, and the frontend was made using React and a webpack.
 
-MOST OF THE PICTURES WERE TAKEN OUT WHEN I PUT THIS ON GITHUB, they were in files labeled static and one file was in the public folder and the other was in the src folder.  
+Most of the images and static files were taken out when I uploaded this, so I left in placeholders.  
 
-From React Documentation:
-
-"## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/)."
+My other sites of interest are prek-eval-demo.herokuapp.com (a demo version of a site made for a client and posted with that clients permission), neyonajones.com which is a Wordpress site, and monsterdreamsbook.com which is a squarespace site for a book I wrote. 
