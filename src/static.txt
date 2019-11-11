@@ -1,1 +1,0 @@
-A folder called static was here, it contained images used in the javascript.
