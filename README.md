@@ -8,4 +8,4 @@ Most of the images and static files were taken out when I uploaded this, so I le
 
 I started the project in a virtual environment making the Django and Django Rest Framework api first. I then used yarn init inside of the same virtual environment when it was time to do the frontend. 
 
-My other sites of interest are prek-eval-demo.herokuapp.com (a demo version of a site made for a client and posted with that clients permission), neyonajones.com which is a Wordpress site, and monsterdreamsbook.com which is a squarespace site for a book I wrote. 
+My other sites of interest are prek-eval-demo.herokuapp.com (a demo version of a site made for a client and posted with that clients permission) and monsterdreamsbook.com which is a Squarespace site for a book I wrote. 
